@@ -76,7 +76,8 @@ opt[c("r_star", "revenue")]
 
 ## -----------------------------------------------------------------------------
 rb <- fpa_revenue_boot(timber$n3, r = seq(30, 100, by = 10), B = 30, v_s = 20,
-                       method = "bernstein", bandwidth = "wbcv", m_range = c(10, 200))
+                       method = "bernstein", bandwidth = "bcv")
+rb$bandwidth[c("m", "at_boundary", "boundary")]
 rb
 plot(rb, main = "Expected revenue with 95% pointwise CI and uniform band")
 
