@@ -2,7 +2,7 @@ Package: qdfauction
 Type: Package
 Title: Nonparametric Quantile Density Estimation and Structural
         Analysis of First-Price Auctions
-Version: 0.2.0
+Version: 0.3.0
 Authors@R: c(
     person("Hassan", "Doosti", role = c("aut", "cre", "cph"),
            email = "Hassan.doosti@mq.edu.au",
@@ -56,15 +56,15 @@ License: GPL (>= 3)
 URL: https://github.com/DoostiH/qdfauction
 BugReports: https://github.com/DoostiH/qdfauction/issues
 Encoding: UTF-8
+Language: en-GB
 Depends: R (>= 4.1)
 Imports: stats, splines, utils, graphics, grDevices
-Suggests: testthat (>= 3.1.7), knitr, rmarkdown
+Suggests: testthat (>= 3.1.7), knitr, rmarkdown, np
 VignetteBuilder: knitr
 Config/testthat/edition: 3
 LazyData: true
-Config/roxygen2/version: 8.1.1
 NeedsCompilation: no
-Packaged: 2026-10-22 11:12:27 UTC; MQ20173444
+RoxygenNote: 7.3.1
 Author: Hassan Doosti [aut, cre, cph] (ORCID:
     <https://orcid.org/0000-0002-0290-8122>, affiliation: School of
     Mathematical and Physical Sciences, Macquarie University),
@@ -99,5 +99,6 @@ Author: Hassan Doosti [aut, cre, cph] (ORCID:
     estimator of private values with boundary extrapolation, adapted in
     fpa_values(method = 'zincenko'))
 Maintainer: Hassan Doosti <Hassan.doosti@mq.edu.au>
+Packaged: 2026-11-10 08:04:02 UTC; MQ20173444
 Repository: CRAN
-Date/Publication: 2026-10-22 12:40:02 UTC
+Date/Publication: 2026-11-10 10:00:02 UTC
